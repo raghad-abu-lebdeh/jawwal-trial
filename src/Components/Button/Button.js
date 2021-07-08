@@ -1,7 +1,7 @@
 import './button.scss'
 
-const Button = () => {
-  return <button className="btn btn-outline-primary"> Hello</button>
+const Button = ({ label }) => {
+  return <button className="btn btn-outline-primary"> {label}</button>
 }
 
 export default Button
